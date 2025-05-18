@@ -1,0 +1,139 @@
+.board{
+    height: 600px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+}
+
+.next-btn{
+    margin-top: 150px;
+    background-color: #c4d8e9 !important;
+    color: #1a3f5e !important;
+    border: 4px solid #1a3f5e !important;
+}
+
+.visited{
+    background-color: #ffe3e3 !important;
+}
+
+.unvisited{
+    background-color: #c4d8e9 !important;
+}
+
+
+
+.board > div{
+    background-color: antiquewhite;
+    border: 0.5px solid black;
+    width:"100px" !important;
+    height:"100px" !important;
+}
+
+#tile-0{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    /* background-color: green; */
+}
+
+#tile-1{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+
+#tile-2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+#tile-3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+#tile-4{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+#tile-5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#tile-6{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#tile-7{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#tile-8{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#tile-9{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#tile-10{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#tile-11{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#tile-12{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#tile-13{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#tile-14{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #ffe3e3 !important;
+    /* background-color: red; */
+}

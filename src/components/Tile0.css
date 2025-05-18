@@ -1,0 +1,35 @@
+.mainMenu-header{
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: #789dbc !important;
+  letter-spacing: 3px;
+  margin-top: 40px;
+  text-shadow: -2px -2px 0 #1a3f5e, 2px -2px 0 #1a3f5e, -2px 2px 0 #1a3f5e, 2px 2px 0 #1a3f5e;
+}
+
+.button-bar{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+.play-btn, .exit-btn, .rules-btn{
+    background-color: #789dbc !important;
+    border: 3px solid #1a3f5e !important;
+    font-size: 16px !important;
+    font-family: "Press Start 2P", system-ui !important;
+    color:#1a3f5e !important;
+    width: 300px;
+}
+
+.alert{
+    margin-top: 40px;
+    background-color: #fef9f2 !important;
+    font-size: 14px;
+    font-weight: 500;
+}

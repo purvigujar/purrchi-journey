@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-color: #fef9f2;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#1a3f5e !important;
+  text-align: center;
+}
+

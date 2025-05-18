@@ -1,0 +1,33 @@
+.photo-flip-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.photo-tile {
+  text-align: center;
+  cursor: pointer;
+}
+
+.blurred {
+  filter: blur(8px);
+  transition: filter 0.5s ease;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.unblurred {
+  filter: blur(0);
+  transition: filter 0.5s ease;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.caption {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #555;
+  font-style: italic;
+}
